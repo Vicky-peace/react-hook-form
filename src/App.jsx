@@ -91,7 +91,7 @@ function App() {
           {errors.confirmPassword && <span className='error'>{errors.confirmPassword.message}</span>}
         </div>
 
-        <input type="submit" value="Submit" className='submit-btn' />
+        <input type="submit" value="Sign Up" className='submit-btn' />
       </form>
     </div>
   );
